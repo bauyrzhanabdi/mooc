@@ -1,0 +1,55 @@
+.instructor_info__avatar {
+  background: #f0f4fb;
+  height: 150px;
+  width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hz {
+  width: 120px;
+}
+.instructor_info__container {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+
+}
+.instructor_table {
+}
+.instructorPage {
+  margin-top: 100px;
+;
+}
+.btn {
+  //flex-direction: column-reverse;
+  margin-top: 20px;
+}
+.instructor_th {
+  width: 100px;
+}
+.instructor_tr {
+  line-height: 19px;
+}
+.input {
+  border: 1px solid #f0f4fb;
+  border-radius: 3px;
+}
+.medialisting {
+  width: 120px;
+  text-decoration: none;
+  display: flex;
+  margin-bottom: 20px;
+  p {
+    align-self: center;
+    margin-left: 10px;
+    color: black;
+  }
+}
+.instructor_courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}

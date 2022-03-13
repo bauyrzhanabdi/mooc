@@ -1,0 +1,34 @@
+{
+  "courses": [
+    {
+      "name": "LESSON 1 – HOW DO PROGRAMS WORK?",
+      "url": "https://img.youtube.com/vi/nykOeWgQcHM/default.jpg",
+      "id": 1
+    },
+    {
+      "name": "LESSON 2 – INTRO TO ECLIPSE CDT ",
+      "url": "https://img.youtube.com/vi/nykOeWgQcHM/default.jpg",
+      "id":  1
+    },
+    {
+      "name": "LESSON 3 – PROGRAMS AND VARIABLES",
+      "url": "https://img.youtube.com/vi/nykOeWgQcHM/default.jpg",
+      "id":  2
+    },
+    {
+      "name": "LESSON 4 – BASIC TYPES AND I/O",
+      "url": "https://img.youtube.com/vi/nykOeWgQcHM/default.jpg",
+      "id":  3
+    },
+    {
+      "name": "LESSON 5 – OPERATORS",
+      "url": "https://img.youtube.com/vi/nykOeWgQcHM/default.jpg",
+      "id":  4
+    },
+    {
+      "name": "LESSON 6 – FOR LOOPS",
+      "url": "https://img.youtube.com/vi/nykOeWgQcHM/default.jpg",
+      "id":  5
+    }
+  ]
+}

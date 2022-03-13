@@ -1,0 +1,29 @@
+version: '2'
+
+services:
+  mooc-backend:
+    image: 'mooc-backend:latest'
+    ports:
+      - 8080:8080
+    build:
+      context: .
+    container_name: mooc-backend
+    depends_on:
+      - mooc-db
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://mooc-db:5432/mooc
+      - SPRING_DATASOURCE_USERNAME=mooc
+      - SPRING_DATASOURCE_PASSWORD=mooc123
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+
+  mooc-db:
+    image: 'postgres:12'
+    shm_size: '1gb'
+    ports:
+      - 5432:5432
+    container_name: mooc-db
+    environment:
+      - POSTGRES_DB=mooc
+      - POSTGRES_SCHEMA=mooc
+      - POSTGRES_USER=mooc
+      - POSTGRES_PASSWORD=mooc123

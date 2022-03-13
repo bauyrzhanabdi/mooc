@@ -1,0 +1,30 @@
+.catalog_search_bar {
+  display: flex;
+  align-items: center;
+  background: #e3e3e3;
+  border-radius: 5px;
+}
+.searchbar {
+  width: 400px;
+  margin: 10px 20px;
+}
+.school_dropdown {
+  border: none;
+  background: none;
+}
+.searchbutton {
+  background: #54ad54;
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding: 6px 20px;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+.searchinput {
+  //width: 100%;
+  //margin-bottom: 10px;
+  & > i {
+  position: absolute;
+};
+}

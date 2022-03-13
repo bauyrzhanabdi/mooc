@@ -1,0 +1,35 @@
+.main {
+  //background-color: blueviolet;
+  min-height: 100vh;
+  max-width: 1500px;
+}
+.main-container {
+  min-height:100%;
+  position:relative;
+}
+.min-height-150 {
+  min-height: 100vh;
+  display: flex;
+  align-content: center;
+}
+.footer {
+  //background-color: #0d6efd;
+}
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif; // fallback sans-serif
+}
+.carousel-caption {
+  top: 46%;
+  & > h3, p {
+    font-weight: bold;
+  }
+}
+.carousel-inner {
+  //overflow: visible;
+  border-radius: 8px;
+}
+.take_courses {
+  font-size: 24px;
+  padding: 20px 0;
+}
